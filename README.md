@@ -11,6 +11,7 @@
 | **Qwen-Audio**    | Unspecified                                  | Unspecified                     | Unspecified            | **~100,000 GPU hours** | **Low**              | Estimated from scaling of large multimodal models. |
 | **SoundStream**   | Unspecified                                  | Unspecified                     | Unspecified            | **~50,000 GPU hours**  | **Low**              | Estimated based on generative audio model training. |
 | **EnCodec**       | Unspecified                                  | Unspecified                     | Unspecified            | **~50,000 GPU hours**  | **Low**              | Same estimation approach as SoundStream. |
+| **WavLM**       | 94,000 hours                                  | Unspecified                     | Unspecified            | Unspecified  | Unspecified             | Unspecified |
 | **w2v-BERT XL**   | **60,000 hours**                             | Unspecified                     | Unspecified            | **~40,000 GPU hours**  | **Medium**           | Estimated from HuBERT Large/X-Large scaling. |
 | **HuBERT X-Large**| **60,000 hours**                             | **256 x GPUs**                    | Unspecified            | **~40,000 GPU hours**  | **Medium**           | Based on training step scaling. |
 | **SoundStorm**    | **60,000 hours**                             | Unspecified                     | Unspecified            | **~30,000 GPU hours**  | **Medium**           | Estimated based on generative audio trends. |
