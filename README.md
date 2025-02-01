@@ -1,1 +1,25 @@
-# awesome-audio-foundation-models
+# Awesome Audio Foundation Models
+
+| **Model**         | **Hours of Data**                              | **Number of GPUs**               | **Training Time**      | **Estimated GPU Hours** | **Confidence Level** | **Notes** |
+|-------------------|----------------------------------------------|---------------------------------|------------------------|------------------------|----------------------|-----------|
+| **Gemini 2.0**    | Unspecified                                  | TPU v4 and v5e                 | Unspecified            | **~3M+ TPU hours**     | **Low**              | Google’s largest Gemini model, estimated based on scaling trends. |
+| **Gemini 1.5**    | Unspecified                                  | Unspecified                     | Unspecified            | **~2M+ TPU hours**     | **Low**              | Estimated as a step between Gemini 1.0 and 2.0. |
+| **Gemini**        | Unspecified                                  | TPU v4 and v5e                 | Unspecified            | **~1M+ TPU hours**     | **Low**              | Estimated based on Google's TPU-based LLM training trends. |
+| **Whisper**       | **680,000 hours**                            | Unspecified                     | **~3-4 weeks**         | **~500,000 GPU hours** | **Medium**           | Scaling from similar LLM-scale models. |
+| **Moshi**         | **7,022,170 hours**                          | **1,016 (H100 Nvidia GPUs)**    | Unspecified            | **~320,000 GPU hours** | **Medium**           | Based on large-scale GPU training setup. |
+| **Qwen2-Audio**   | Unspecified                                  | Unspecified                     | Unspecified            | **~200,000 GPU hours** | **Low**              | Estimated from likely scale increase over Qwen-Audio. |
+| **Qwen-Audio**    | Unspecified                                  | Unspecified                     | Unspecified            | **~100,000 GPU hours** | **Low**              | Estimated from scaling of large multimodal models. |
+| **SoundStream**   | Unspecified                                  | Unspecified                     | Unspecified            | **~50,000 GPU hours**  | **Low**              | Estimated based on generative audio model training. |
+| **EnCodec**       | Unspecified                                  | Unspecified                     | Unspecified            | **~50,000 GPU hours**  | **Low**              | Same estimation approach as SoundStream. |
+| **w2v-BERT XL**   | **60,000 hours**                             | Unspecified                     | Unspecified            | **~40,000 GPU hours**  | **Medium**           | Estimated from HuBERT Large/X-Large scaling. |
+| **HuBERT X-Large**| **60,000 hours**                             | **256 GPUs**                    | Unspecified            | **~40,000 GPU hours**  | **Medium**           | Based on training step scaling. |
+| **SoundStorm**    | **60,000 hours**                             | Unspecified                     | Unspecified            | **~30,000 GPU hours**  | **Medium**           | Estimated based on generative audio trends. |
+| **HuBERT Large**  | **60,000 hours**                             | **128 GPUs**                    | Unspecified            | **~20,000 GPU hours**  | **Medium**           | Estimated from HuBERT training scaling. |
+| **OWSM-CTC**      | **180,000 hours**                            | **64 NVIDIA A100 GPUs (40GB)**  | **~300 hours**         | **20,000 GPU hours**   | **High**             | Directly stated in research paper. |
+| **SeamlessM4T**   | **1M (self-supervised) + 470K (aligned speech)** | **32 GPUs**  | **~100K steps**         | **~5,000 GPU hours**   | **High**              | Estimated from confirmed GPU usage. |
+| **Canary**        | **86,000 hours**                             | **128 NVIDIA A100 80GB GPUs**   | **Under 48 hours**     | **~6,000 GPU hours**   | **High**             | Directly calculated from training duration. |
+| **HuBERT Base**   | **960 hours**                                | **32 GPUs**                     | Unspecified            | **~2,000 GPU hours**   | **Medium**           | Estimated from smaller-scale training. |
+| **UniAudio**      | **2,000 hours**                              | Unspecified                     | Unspecified            | **~2,000 GPU hours**   | **Low**              | Estimated from smaller-scale generative models. |
+| **UniAudio 1.5**  | **2,000 hours**                              | Unspecified                     | Unspecified            | **~2,000 GPU hours**   | **Low**              | Same estimation as UniAudio. |
+| **Ultravox v0.4** | Unspecified                                  | **8 H100 GPUs**                 | **2-3 hours**          | **~20 GPU hours**      | **High**             | Directly calculated from training duration. |
+| **Bark (Small)**  | Unspecified                                  | **8 GPUs** (unspecified model)  | **~10 hours**          | **~80 GPU hours**      | **High**             | Directly stated in training details. |
