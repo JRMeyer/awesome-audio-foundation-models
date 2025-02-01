@@ -22,4 +22,4 @@
 | **UniAudio**      | **2,000 hours**                              | Unspecified                     | Unspecified            | **~2,000 GPU hours**   | **Low**              | Estimated from smaller-scale generative models. |
 | **UniAudio 1.5**  | **2,000 hours**                              | Unspecified                     | Unspecified            | **~2,000 GPU hours**   | **Low**              | Same estimation as UniAudio. |
 | **Ultravox v0.4** | Unspecified                                  | **8 H100 GPUs**                 | **2-3 hours**          | **~20 GPU hours**      | **High**             | Directly calculated from training duration. |
-| **Bark (Small)**  | Unspecified                                  | **8 GPUs** (unspecified model)  | **~10 hours**          | **~80 GPU hours**      | **High**             | Directly stated in training details. |
+| **Bark (Small?)**  | Unspecified                                  | **8 GPUs**  | **~10 hours**          | **~80 GPU hours**      | **High**             | [Directly stated by Suno team](https://github.com/suno-ai/bark/issues/35). |
